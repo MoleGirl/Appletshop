@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moli.appletshop.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/wrapper"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <com.sackcentury.shinebuttonlib.ShineButton
+            android:id="@+id/po_image0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="60dp"
+            app:btn_color="@android:color/darker_gray"
+            app:btn_fill_color="#999933"
+            app:siShape="@raw/heart" />
+
+        <com.sackcentury.shinebuttonlib.ShineButton
+            android:id="@+id/po_image1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:src="@android:color/darker_gray"
+            app:allow_random_color="false"
+            app:big_shine_color="#FF6666"
+            app:btn_color="@android:color/darker_gray"
+            app:btn_fill_color="#FF6666"
+            app:click_animation_duration="200"
+            app:enable_flashing="false"
+            app:shine_animation_duration="1500"
+            app:shine_count="15"
+            app:shine_distance_multiple="1.5"
+            app:shine_turn_angle="10"
+            app:siShape="@raw/like"
+            app:small_shine_color="#CC9999"
+            app:small_shine_offset_angle="20" />
+
+        <com.sackcentury.shinebuttonlib.ShineButton
+            android:id="@+id/po_image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:src="@android:color/darker_gray"
+            app:allow_random_color="true"
+            app:btn_color="@android:color/darker_gray"
+            app:btn_fill_color="#F44336"
+            app:siShape="@raw/smile" />
+
+        <com.sackcentury.shinebuttonlib.ShineButton
+            android:id="@+id/po_image3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            app:btn_color="@android:color/darker_gray"
+            app:btn_fill_color="#996699"
+            app:enable_flashing="true"
+            app:shine_size="40dp"
+            app:siShape="@raw/star" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
